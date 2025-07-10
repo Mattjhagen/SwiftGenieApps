@@ -1,5 +1,6 @@
 // swiftgenie.js - Generate SwiftUI apps from GPT-4 + Templates
 
+#!/usr/bin/env node
 const { execSync } = require('child_process');
 const fs = require('fs-extra');
 const path = require('path');

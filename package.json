@@ -1,0 +1,20 @@
+{
+  "name": "swiftgenie",
+  "version": "1.0.0",
+  "description": "CLI to generate SwiftUI apps from natural language using GPT-4",
+  "main": "swiftgenie.js",
+  "bin": {
+    "swiftgenie": "swiftgenie.js"
+  },
+  "scripts": {
+    "start": "node swiftgenie.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.5",
+    "openai": "^4.33.0"
+  },
+  "keywords": ["swiftui", "gpt-4", "cli", "ai", "codegen"],
+  "author": "Matty Hagen",
+  "license": "MIT"
+}
